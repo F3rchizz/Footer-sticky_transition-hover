@@ -1,0 +1,61 @@
+.background-site{
+  min-height: 550px;
+  background-image: url(../imagenes/childrens-work.jpg);
+  background-size: cover;
+  padding: 1em;
+  transition: all 1s;
+}
+
+.background-site:hover{
+  transform: scale(1.2);
+}
+
+.background-site h1{
+  text-align: center;
+  color: white;
+}
+
+.container{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+}
+
+.card{
+  max-width: 200px;
+  background-color: white;
+  margin: 1em auto;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 3px #cecece;
+  text-align: center;
+  transition: all 2s;
+}
+
+.card:hover{
+  transform: scale(1.2);
+}
+
+.card p{
+  font-size: 1.2em;
+}
+
+.icon-svg{
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  transition: all 2s;
+}
+
+.icon-svg:hover{
+  transform: rotate(360deg);
+}
+
+footer{
+  background-color: #273b47;
+  padding: 1em;
+  /* min-height: 80px; */
+  position: sticky;
+  bottom: 0;
+}
