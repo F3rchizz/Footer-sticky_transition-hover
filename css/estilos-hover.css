@@ -1,5 +1,5 @@
 .background-site{
-  min-height: 550px;
+  height: 90vh;
   background-image: url(../imagenes/childrens-work.jpg);
   background-size: cover;
   padding: 1em;
@@ -53,9 +53,10 @@
 }
 
 footer{
+  width: 100%;
+  height: 10vh;
   background-color: #273b47;
   padding: 1em;
-  /* min-height: 80px; */
   position: sticky;
   bottom: 0;
 }
